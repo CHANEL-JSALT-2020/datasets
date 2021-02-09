@@ -13,10 +13,9 @@ The provided resource consists of three different meta-data information extracte
 2.	Moderation: Datasets used to train dialogue systems may contain inappropriate content (e.g. swear words or toxic comments) that should not be included to avoid the dialogue system to provide embarrassing answers. The provided metadata includes information about the presence of toxic comments, words or expressions that could be considered unappropriated or contain personal information to that should be not included or anonymized.
 
 3.	Sentiment analysis: Finally, the provided metadata includes information about sentiment of the different turns in the dialog. The sentiment information includes the following labels: positive, neutral or negative, and the respective probability for each one.
-Files Processed
-The following table describes the datasets processed and the services applied. Due to budget constraints some datasets were not fully processed, leaving for future opportunities, completing the pending information.
 
-## Included datasets
+## Files Processed
+The following table describes the datasets processed and the services applied. Due to budget constraints some datasets were not fully processed, leaving for future opportunities, completing the pending information.
 
 
 | Dataset                   | Sentiment Analysis | Content Moderate | Spanish Translation | English Translation |
@@ -38,6 +37,7 @@ The following table describes the datasets processed and the services applied. D
 
 ## CITATION
 In case you use any of the provided datasets and the corresponding metadata, please cite the original paper for the respective dataset and the following paper:
+```
 @article{chanel-jsalt2020,
   title={CHANEL-Metrics: Chat/Dialogue Modeling and Evaluation report},
   author={Alexander Rudnicky and Rafael Banchs and Luis F. D’Haro and João Sedoc and Zhang Chen and Mario Rodríguez-Cantelar and Andrew Koh Jin Jie and others},
@@ -45,7 +45,7 @@ In case you use any of the provided datasets and the corresponding metadata, ple
   git={https://github.com/CHANEL-JSALT-2020},
   year={2020}
 }
-
+```
 
 ## Multiple File System
 Dialogue datasets are stored across multiple files. This are the supported types of files:
