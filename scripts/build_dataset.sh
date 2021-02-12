@@ -3,6 +3,14 @@ DATASET_NAME=$1
 SRC_ROOT=../azure
 TARGET_DIR=$2
 chmod +x check_dataset.sh
+
+if [ -n "$2" ]; then
+    echo "TARGET_DIR is set to '$TARGET_DIR'"
+else
+    echo "TARGET_DIR is unset, using default dir"
+    TARGET_DIR=../extracted_dataset
+fi
+
 if [ -d $SRC_ROOT ]; then
     if [ "$DATASET_NAME" == "0DBDC3" ]; then
         ./check_dataset.sh $SRC_ROOT ../extracted_dataset "0DBDC3"
