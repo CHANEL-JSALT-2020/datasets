@@ -21,7 +21,7 @@ The following table describes the datasets processed and the services applied. D
 | Dataset                   | Sentiment Analysis | Content Moderate | Spanish Translation  | English Translation |
 |---------------------------|--------------------|------------------|----------------------|---------------------|
 | DBDC                      | ✔                  | ✔                | ✔                   | ✔                   |
-| Cornell Movie             | ✔                  | ✔                | ✔                   | ✔                   |
+| Cornell Movie-Dialogs     | ✔                  | ✔                | ✔                   | ✔                   |
 | DailyDialog               | ✔                  | ✔                | ✔                   | ✔                   |
 | EmotionLines              | ✔                  | ✔                | ✔                   | ✔                   |
 | EmpathicDialogues         | ✔                  | ✔                | ✔                   | ✔                   |
