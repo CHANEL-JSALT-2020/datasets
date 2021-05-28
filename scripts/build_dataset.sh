@@ -17,8 +17,7 @@ if [ -d $SRC_ROOT ]; then
         unrar e $SRC_ROOT/0DBDC3.rar $TARGET_DIR/0DBDC3/
     elif [ "$DATASET_NAME" == "cornell" ]; then
         ./check_dataset.sh $SRC_ROOT ../extracted_dataset "cornell"
-        unrar e $SRC_ROOT/CORMOV.part1.rar $TARGET_DIR/cornell/
-        # part2 is chained to part1
+        unrar e $SRC_ROOT/CORMOV.part01.rar $TARGET_DIR/cornell/
     elif [ "$DATASET_NAME" == "daily_dialog" ]; then
         ./check_dataset.sh $SRC_ROOT ../extracted_dataset "daily_dialog"
         unrar e $SRC_ROOT/DAILYD.rar $TARGET_DIR/daily_dialog/
@@ -33,10 +32,10 @@ if [ -d $SRC_ROOT ]; then
         unrar e $SRC_ROOT/MELDME.rar $TARGET_DIR/meldme/
     elif [ "$DATASET_NAME" == "metalwoz" ]; then
         ./check_dataset.sh $SRC_ROOT ../extracted_dataset "metalwoz"
-        unrar e $SRC_ROOT/METALW.rar $TARGET_DIR/metalwoz/
+        unrar e $SRC_ROOT/METALW.part01.rar $TARGET_DIR/metalwoz/
     elif [ "$DATASET_NAME" == "moviedic" ]; then
         ./check_dataset.sh $SRC_ROOT ../extracted_dataset "moviedic"
-        unrar e $SRC_ROOT/MOVDIC.part1.rar $TARGET_DIR/moviedic/
+        unrar e $SRC_ROOT/MOVDIC.part01.rar $TARGET_DIR/moviedic/
     elif [ "$DATASET_NAME" == "empathic" ]; then
         ./check_dataset.sh $SRC_ROOT ../extracted_dataset "empathic"
         unrar e $SRC_ROOT/MPATHY.part1.rar $TARGET_DIR/empathic/
@@ -49,6 +48,9 @@ if [ -d $SRC_ROOT ]; then
     elif [ "$DATASET_NAME" == "switchboard" ]; then
         ./check_dataset.sh $SRC_ROOT ../extracted_dataset "switchboard"
         unrar e $SRC_ROOT/SWBCOH.rar $TARGET_DIR/switchboard/
+    elif [ "$DATASET_NAME" == "topicalchat" ]; then
+        ./check_dataset.sh $SRC_ROOT ../extracted_dataset "topicalchat"
+        unrar e $SRC_ROOT/TPCCHT.part01.rar $TARGET_DIR/topicalchat/
     elif [ "$DATASET_NAME" == "wochat" ]; then
         ./check_dataset.sh $SRC_ROOT ../extracted_dataset "wochat"
         unrar e $SRC_ROOT/WOCHAT.rar $TARGET_DIR/wochat/  
