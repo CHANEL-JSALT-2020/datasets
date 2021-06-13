@@ -127,6 +127,8 @@ Index and attributes: the translation file must contain at least three mandatory
 ## Acknowledgement
 We want to thank the JSALT2020 organizers: Sanjeev Khudanpur, Najim Dehak, Jan Trmal and Piotr Żelasko, for their support to use the Azure services, as well as the workshop sponsors: Amazon and Microsoft.
 
+We also want to give thanks to MS Azure services (especially to Irving Kwong) for their sponsorship to continue processing new datasets that could be interesting for the dialogue community.
+
 ## Authors
 - Mario Rodríguez-Cantelar and Luis Fernando D’Haro - Universidad Politécnica de Madrid, Spain.
 - Rafael E. Banchs, Nanyang Technological University, Singapore.
