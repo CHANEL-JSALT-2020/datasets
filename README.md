@@ -36,11 +36,11 @@ The following table describes the datasets processed and the services applied. D
 | Switchboard Coherence     | ✔                  | ✔                | ✔                   | ✔                   |
 | Topical-Chat              | ✔                  | ✔                | ✔                   | ✔                   |
 | Wochat                    | ✔                  | ✔                | ✔                   | ✔                   |
-| PChatbot                  | X                  | X                 | X                   | X                    |
-| KvPI                      | X                  | X                 | X                   | X                    |
-| Decode                    | X                  | X                 | X                   | X                    |
-| Holle                     | X                  | X                 | X                   | X                    |
-| CMU_DoG                   | X                  | X                 | X                   | X                    |
+| PChatbot                  | ✖                  | ✖                | ✖                   | ✖                   |
+| KvPI                      | ✖                  | ✖                | ✖                   | ✖                   |
+| Decode                    | ✖                  | ✖                | ✖                   | ✖                   |
+| Holle                     | ✖                  | ✖                | ✖                   | ✖                   |
+| CMU_DoG                   | ✖                  | ✖                | ✖                   | ✖                   |
 
 ## CITATION
 In case you use any of the provided datasets and the corresponding metadata, please cite the original paper for the respective dataset and the following paper:
