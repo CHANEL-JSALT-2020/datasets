@@ -36,7 +36,6 @@ The following table describes the datasets processed and the services applied. D
 | Switchboard Coherence     | ✔                  | ✔                | ✔                   | ✔                   |
 | Topical-Chat              | ✔                  | ✔                | ✔                   | ✔                   |
 | Wochat                    | ✔                  | ✔                | ✔                   | ✔                   |
-| PChatbot                  | ✖                  | ✖                | ✖                   | ✖                   |
 | KvPI                      | ✖                  | ✖                | ✖                   | ✖                   |
 | Decode                    | ✖                  | ✖                | ✖                   | ✖                   |
 | Holle                     | ✖                  | ✖                | ✖                   | ✖                   |
