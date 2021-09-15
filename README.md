@@ -40,8 +40,6 @@ The following table describes the datasets processed and the services applied. D
 | Decode                    | ✖                  | ✖                | ✖                   | ✖                   |
 | Holle                     | ✖                  | ✖                | ✖                   | ✖                   |
 | CMU_DoG                   | ✖                  | ✖                | ✖                   | ✖                   |
-| EmotionLines              | ✖                  | ✖                | ✖                   | ✖                   |
-| Sentimental LIAR          | ✖                  | ✖                | ✖                   | ✖                   |
 
 ## CITATION
 In case you use any of the provided datasets and the corresponding metadata, please cite the original paper for the respective dataset and the following paper:
