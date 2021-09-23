@@ -18,32 +18,27 @@ The provided resource consists of three different meta-data information extracte
 The following table describes the datasets processed and the services applied. Due to budget constraints some datasets were not fully processed, leaving for future opportunities, completing the pending information.
 
 
-| Dataset                   | Sentiment Analysis | Content Moderate | Spanish Translation  | English Translation |
-|---------------------------|--------------------|------------------|----------------------|---------------------|
-| DBDC                      | ✔                  | ✔                | ✔                   | ✔                   |
-| Cornell Movie-Dialogs     | ✔                  | ✔                | ✔                   | ✔                   |
-| DailyDialog               | ✔                  | ✔                | ✔                   | ✔                   |
-| EmotionLines              | ✔                  | ✔                | ✔                   | ✔                   |
-| EmpathicDialogues         | ✔                  | ✔                | ✔                   | ✔                   |
-| EmpathicDialogues Context | ✔                  | ✔                | ✔                   | ✔                   |
-| MEENA                     | ✔                  | ✔                | ✔                   | ✔                   |
-| MELD                      | ✔                  | ✔                | ✔                   | ✔                   |
-| MetalWOz                  | ✔                  | ✔                | ✔                   | ✔                   |
-| Movie-DiC                 | ✔                  | ✔                | ✔                   | ✔                   |
-| PersonaChat               | ✔                  | ✔                | ✔                   | ✔                   |
-| PersonaChat Context       | ✔                  | ✔                | ✔                   | ✔                   |
-| SentimentLIAR             | ✔                  | ✔                | ✔                   | ✔                   |
-| Switchboard Coherence     | ✔                  | ✔                | ✔                   | ✔                   |
-| Topical-Chat              | ✔                  | ✔                | ✔                   | ✔                   |
-| Wochat                    | ✔                  | ✔                | ✔                   | ✔                   |
-| KvPI main                 | ✔                  | ✔                | ✔                   | ✔                   |
-| KvPI dialoginfo           | ✔                  | ✔                | ✔                   | ✔                   |
-| Decode main               | ✔                  | ✔                | ✔                   | ✔                   |
-| Decode context            | ✔                  | ✔                | ✔                   | ✔                   |
-| Decode dialoginfo         | ✔                  | ✔                | ✔                   | ✔                   |
-| Holle main                | ✔                  | ✔                | ✔                   | ✔                   |
-| Holle dialoginfo          | ✔                  | ✔                | ✔                   | ✔                   |
-| CMU_DoG main              | ✔                  | ✔                | ✔                   | ✔                   |
+| Dataset               | Sentiment Analysis | Content Moderate | Spanish Translation | English Translation |
+|-----------------------|--------------------|------------------|---------------------|---------------------|
+| DBDC                  | ✔                  | ✔                | ✔                   | ✔                   |
+| CMU_DoG               | ✔                  | ✔                | ✔                   | ✔                   |
+| Cornell Movie-Dialogs | ✔                  | ✔                | ✔                   | ✔                   |
+| DailyDialog           | ✔                  | ✔                | ✔                   | ✔                   |
+| Decode                | ✔                  | ✔                | ✔                   | ✔                   |
+| EmotionLines          | ✔                  | ✔                | ✔                   | ✔                   |
+| EmpathicDialogues     | ✔                  | ✔                | ✔                   | ✔                   |
+| Holle                 | ✔                  | ✔                | ✔                   | ✔                   |
+| KvPI                  | ✔                  | ✔                | ✔                   | ✔                   |
+| MEENA                 | ✔                  | ✔                | ✔                   | ✔                   |
+| MELD                  | ✔                  | ✔                | ✔                   | ✔                   |
+| MetalWOz              | ✔                  | ✔                | ✔                   | ✔                   |
+| Movie-DiC             | ✔                  | ✔                | ✔                   | ✔                   |
+| PersonaChat           | ✔                  | ✔                | ✔                   | ✔                   |
+| SentimentLIAR         | ✔                  | ✔                | ✔                   | ✔                   |
+| Switchboard Coherence | ✔                  | ✔                | ✔                   | ✔                   |
+| Topical-Chat          | ✔                  | ✔                | ✔                   | ✔                   |
+| Wizard of Wikipedia   | ✔                  | ✔                | ✔                   | ✔                   |
+| Wochat                | ✔                  | ✔                | ✔                   | ✔                   |
 
 ## CITATION
 In case you use any of the provided datasets and the corresponding metadata, please cite the original paper for the respective dataset and the following paper:
