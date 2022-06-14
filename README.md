@@ -24,10 +24,10 @@ The following table describes the datasets processed and the services applied. D
 | CMU_DoG               | ✔                  | ✔                | ✔                   | ✔                   |
 | Cornell Movie-Dialogs | ✔                  | ✔                | ✔                   | ✔                   |
 | DailyDialog           | ✔                  | ✔                | ✔                   | ✔                   |
-| Decode                | ✔                  | ✔                | ✔                   | ✔                   |
+| DECODE                | ✔                  | ✔                | ✔                   | ✔                   |
 | EmotionLines          | ✔                  | ✔                | ✔                   | ✔                   |
 | EmpathicDialogues     | ✔                  | ✔                | ✔                   | ✔                   |
-| Holle                 | ✔                  | ✔                | ✔                   | ✔                   |
+| Holl-E                | ✔                  | ✔                | ✔                   | ✔                   |
 | KvPI                  | ✔                  | ✔                | ✔                   | ✔                   |
 | MEENA                 | ✔                  | ✔                | ✔                   | ✔                   |
 | MELD                  | ✔                  | ✔                | ✔                   | ✔                   |
@@ -38,7 +38,7 @@ The following table describes the datasets processed and the services applied. D
 | Switchboard Coherence | ✔                  | ✔                | ✔                   | ✔                   |
 | Topical-Chat          | ✔                  | ✔                | ✔                   | ✔                   |
 | Wizard of Wikipedia   | ✔                  | ✔                | ✔                   | ✔                   |
-| Wochat                | ✔                  | ✔                | ✔                   | ✔                   |
+| WOCHAT                | ✔                  | ✔                | ✔                   | ✔                   |
 
 ## CITATION
 In case you use any of the provided datasets and the corresponding metadata, please cite the original paper for the respective dataset and the following paper:
