@@ -52,11 +52,15 @@ In case you use any of the provided datasets and the corresponding metadata, ple
 }
 ```
 
+# [Unified Dialogue Data Formats](https://github.com/CHANEL-JSALT-2020/Wiki/wiki/Unified-Dialogue-Data-Formats)
+
+Chanel Unified Dialogue Data Formats provides guidelines on how to store, maintain and handle dialogue corpora.
+
 ## Multiple File System
 Dialogue datasets are stored across multiple files. This are the supported types of files:
-*	Readme. A .txt file providing general information about the corpus.
-*	Main. The main data file of the corpus in .csv format containing the raw text of the turns and the main indexes.
-*	Context. Used to provide dialogue context information at the turn and supra-turn level in .csv format.
+*	**Readme**. A .txt file providing general information about the corpus.
+*	**Main**. The main data file of the corpus in .csv format containing the raw text of the turns and the main indexes.
+*	**Context**. Used to provide dialogue context information at the turn and supra-turn level in .csv format.
 
 Main File Format
 The main data file of a corpus is a .csv file containing the raw text of the turns and the main UID indexes.
