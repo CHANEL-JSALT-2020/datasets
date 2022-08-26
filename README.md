@@ -68,6 +68,7 @@ The UID is of the form cccccc-dddddd-uuuu, where:
 *	cccccc: six alphanumeric characters identifying the corpus.
 *	dddddd: six digits identifying the dialogue number inside the corpus.
 *	uuuu: four digits identifying the utterance number inside the dialogue.
+
 Naming Convention: the main file must be named as "cccccc_main.csv", where cccccc is the corpus index CID.
 *	CID (corpus index): cccccc the six alphanumeric characters identifying the corpus.
 Index and attributes: the main file must contain at least three mandatory columns:
@@ -94,6 +95,7 @@ Index and attributes: the utterance sentiment analysis file must contain at leas
 *	utt_pos_score: positive sentiment score of the entire utterance.
 *	utt_neu_score: neutral sentiment score of the entire utterance.
 *	utt_neg_score: negative sentiment score of the entire utterance.
+
 Index and attributes: the sentence sentiment analysis file must contain at least seven mandatory columns:
 *	SUID (sub-utternace index): cccccc-dddddd-uuuu-[xxxx,xxxx] the UID followed by the start and end character numbers.
 *	sentence_split: the raw segment of text comprising the turn per utterance.
