@@ -62,7 +62,7 @@ Dialogue datasets are stored across multiple files. This are the supported types
 *	**Main**. The main data file of the corpus in .csv format containing the raw text of the turns and the main indexes.
 *	**Context**. Used to provide dialogue context information at the turn and supra-turn level in .csv format.
 
-Main File Format
+## Main File Format
 The main data file of a corpus is a .csv file containing the raw text of the turns and the main UID indexes.
 The UID is of the form cccccc-dddddd-uuuu, where:
 *	cccccc: six alphanumeric characters identifying the corpus.
