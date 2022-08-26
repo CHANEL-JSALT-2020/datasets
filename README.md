@@ -61,6 +61,7 @@ Dialogue datasets are stored across multiple files. This are the supported types
 *	**Readme**. A .txt file providing general information about the corpus.
 *	**Main**. The main data file of the corpus in .csv format containing the raw text of the turns and the main indexes.
 *	**Context**. Used to provide dialogue context information at the turn and supra-turn level in .csv format.
+*	**Dialoginfo**. Used to save information that is relevant at the dialogue level.
 
 ## Main File Format
 The main data file of a corpus is a .csv file containing the raw text of the turns and the main UID indexes.
@@ -75,19 +76,24 @@ Index and attributes: the main file must contain at least three mandatory column
 *	UID: the unique utterance indexes.
 *	SID: the speaker names or ids for each turn.
 *	SEG: the raw segment of text comprising the turn.
+
 Full information in Unified Dialogue Data Formats and File Data Formats.
 
-## Context File Format
+## Context and Dialoginfo File Format
  Auxiliary files providing complementary dialogue metadata related to the corpus.
 
 Index and attributes: the context file must contain at least one mandatory column:
 *	DID (dialogue index): cccccc-dddddd the CID followed by the dialogue number.
+
 Full information in Unified Dialogue Data Formats and File Data Formats.
 
 ## Sentiment Analysis File Format
 The Text Analytics API is a cloud-based service that provides advanced natural language processing over raw text and includes the sentiment analysis function.
+
 The utterance contains the sentiment analysis of each dialogue. The sentence contains the sentiment analysis of each sentence per utterance.
+
 Naming Convention: the sentiment analysis file must be named as "cccccc_{utterance/sentence}_sentiment_analytics.csv", where cccccc is the corpus index CID.
+
 Index and attributes: the utterance sentiment analysis file must contain at least six mandatory columns:
 *	UID: the unique utterance indexes.
 *	SEG: the raw segment of text comprising the turn.
@@ -109,6 +115,7 @@ Index and attributes: the sentence sentiment analysis file must contain at least
 Content Moderator is a cognitive service that checks text content for material that is potentially offensive, risky, or otherwise undesirable.
 
 Naming Convention: the content moderator file must be named as "cccccc_content_moderator.csv.csv", where cccccc is the corpus index CID.
+
 Index and attributes: the content moderator file must contain at least seven mandatory columns:
 *	UID: the unique utterance indexes.
 *	SEG: the raw segment of text comprising the turn.
@@ -122,6 +129,7 @@ Index and attributes: the content moderator file must contain at least seven man
 Translate each utterance string from one language to another. Also detects profanities in translations.
 
 Naming Convention: the translation file must be named as "cccccc_translation_<from_language>2<to_language>.csv", where cccccc is the corpus index CID.
+
 Index and attributes: the translation file must contain at least three mandatory columns:
 *	UID: the unique utterance indexes.
 *	SEG: the raw segment of text comprising the turn.
