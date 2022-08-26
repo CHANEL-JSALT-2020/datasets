@@ -1,4 +1,4 @@
-# CHANEL@JSALT2020: Extended Corpora Metadata using Microsoft Azure Cognitive Services
+# [CHANEL@JSALT2020](https://www.clsp.jhu.edu/chaval-chat-dialogue-modeling-and-evaluation/): Extended Corpora Metadata using Microsoft Azure Cognitive Services
 
 ## Intro
 Automatic dialogue system is an important area of research focused on allowing natural human machine interfaces. Most current efforts and state-of-the-art results are achieved by training large neural models using huge amounts of text dialogue data. Thanks to these resources and techniques, advanced models like GPT-3 (OpenAI), Meena (Google) or Blender (Facebook) have been deployed achieving incredible results that can be later fine-tuned or adapted to other tasks. 
